@@ -6,7 +6,7 @@
 
 <details>
   <summary>
-    Funcções
+    Funções
   </summary>
 
   A distribuidora de cervejas da dona Tereza está se exapandindo. Seu negócio passou a receber encomendas de outros pontos, expandindo sua atuação via delivery.
@@ -25,8 +25,10 @@
 
 <details>
   <summary>
-    <strong>‼️ Antes de começar a desenvolver</strong>
-  </summary><br>
+     <h3>
+        Antes de começar a desenvolver
+     </h3>
+  </summary>
 
   1. Clone o repositório
 
@@ -143,25 +145,25 @@ Todos os testes desse arquivo:
 - Verificarão se o banco de dados contém as pessoas usuárias padrão (conforme referência em `db.example.sql`);
 - Farão a navegação para a página principal em `localhost:3000/login`.
 
-    ✅ 1 - Crie uma tela de login que deve ser acessível pelos endpoints / e /login no navegador
+      ✅ 1 - Crie uma tela de login que deve ser acessível pelos endpoints / e /login no navegador
 
-    ✅ 2 - Crie os elementos da tela de login com os data-testids disponíveis no protótipo
+      ✅ 2 - Crie os elementos da tela de login com os data-testids disponíveis no protótipo
 
-    ✅ 3 - Desenvolva a tela de login de maneira que ela impossibilite o login com dados mal formatados
+      ✅ 3 - Desenvolva a tela de login de maneira que ela impossibilite o login com dados mal formatados
 
-    ✅ 4 - Desenvolva a tela de login de maneira que ela impossibilite o login com dados inexistentes no banco de dados
+      ✅ 4 - Desenvolva a tela de login de maneira que ela impossibilite o login com dados inexistentes no banco de dados
 
-    ✅ 5 - Desenvolva a tela de login de maneira que ela possibilite fazer o login com dados válidos e existentes no banco de dados
+      ✅ 5 - Desenvolva a tela de login de maneira que ela possibilite fazer o login com dados válidos e existentes no banco de dados
 
-    ✅ 6 - Crie uma tela de registro que deve ser acessível via endpoint /register no navegador e pelo botão de registro na tela de login
+      ✅ 6 - Crie uma tela de registro que deve ser acessível via endpoint /register no navegador e pelo botão de registro na tela de login
 
-    ✅ 7 - Crie os elementos da tela de registro com os data-testids disponíveis no protótipo
+      ✅ 7 - Crie os elementos da tela de registro com os data-testids disponíveis no protótipo
 
-    ✅ 8 - Desenvolva a tela de registro de maneira que ela impossibilite o cadastro com dados mal formatados
+      ✅ 8 - Desenvolva a tela de registro de maneira que ela impossibilite o cadastro com dados mal formatados
 
-    ✅ 9 - Desenvolva a tela de registro de maneira que ela possibilite cadastrar com dados válidos
+      ✅ 9 - Desenvolva a tela de registro de maneira que ela possibilite cadastrar com dados válidos
 
-    ✅ 10 - Desenvolva a tela de registro de maneira que ela impossibilite o cadastro de um usuário já existente
+      ✅ 10 - Desenvolva a tela de registro de maneira que ela impossibilite o cadastro de um usuário já existente
 
 ## `Fluxo do Cliente`
 
@@ -174,17 +176,17 @@ Todos os testes desse arquivo:
 - Esse fluxo deve dar acesso a uma página padrão de produtos em `localhost:3000/customer/products`;
 - Verificarão no banco de dados, se consta a lista de produtos padrão, conforme a tabela `products` do modelo em `db.example.sql`.
 
-    ✅ 11 - Crie uma tela de produtos do cliente contendo uma barra de navegação - navbar -, que servirá também para demais telas das pessoas usuárias
+        ✅ 11 - Crie uma tela de produtos do cliente contendo uma barra de navegação - navbar -, que servirá também para demais telas das pessoas usuárias
 
-    ✅ 12 - Desenvolva a tela de produtos do cliente criando os demais elementos com os data-testids disponíveis no protótipo
+        ✅ 12 - Desenvolva a tela de produtos do cliente criando os demais elementos com os data-testids disponíveis no protótipo
+  
+        ✅ 13 - Desenvolva a tela de produtos do cliente de forma que ela pressuponha dados válidos da pessoa usuária armazenados no localStorage
 
-    ✅ 13 - Desenvolva a tela de produtos do cliente de forma que ela pressuponha dados válidos da pessoa usuária armazenados no localStorage
+        ✅ 14 - Desenvolva a tela de produtos do cliente de forma que os cards de todos os produtos pré-cadastrados contenham os valores corretos
 
-    ✅ 14 - Desenvolva a tela de produtos do cliente de forma que os cards de todos os produtos pré-cadastrados contenham os valores corretos
-
-    ✅ 15 - Desenvolva a tela de produtos do cliente de forma que o preço total esteja correto após a adição de itens aleatórios
-
-    ✅ 16 - Desenvolva a tela de produtos do cliente de forma que haja um botão de carrinho que redirecionará para a tela de checkout caso itens sejam adicionados
+        ✅ 15 - Desenvolva a tela de produtos do cliente de forma que o preço total esteja correto após a adição de itens aleatórios
+  
+        ✅ 16 - Desenvolva a tela de produtos do cliente de forma que haja um botão de carrinho que redirecionará para a tela de checkout caso itens sejam adicionados
 
 ### `04customer_checkout.test`
 
@@ -196,15 +198,15 @@ Todos os testes desse arquivo:
 - Vão navegar para a tela de checkout através do botão do carrinho de compras;
 - O endereço da página deve ser `localhost:3000/customer/checkout`.
 
-    ✅ 17 - Crie uma tela de checkout do cliente com elementos com os data-testids disponíveis no protótipo
+        ✅ 17 - Crie uma tela de checkout do cliente com elementos com os data-testids disponíveis no protótipo
 
-    ✅ 18 - Desenvolva a tela de checkout do cliente de forma a possuir os dados corretos do carrinho e preço total
+        ✅ 18 - Desenvolva a tela de checkout do cliente de forma a possuir os dados corretos do carrinho e preço total
 
-    ✅ 19 - Desenvolva a tela de checkout do cliente de forma que seja possível remover itens do carrinho
+        ✅ 19 - Desenvolva a tela de checkout do cliente de forma que seja possível remover itens do carrinho
 
-    ✅ 20 - Desenvolva a tela de checkout do cliente de forma a nos redirecionar para a tela de detalhes do pedido após a finalização do mesmo
+        ✅ 20 - Desenvolva a tela de checkout do cliente de forma a nos redirecionar para a tela de detalhes do pedido após a finalização do mesmo
 
-    ✅ 21 - Desenvolva a tela de checkout do cliente de forma a gerar uma nova venda na tabela sales, assim como relações em salesProducts, ao finalizar o pedido
+        ✅ 21 - Desenvolva a tela de checkout do cliente de forma a gerar uma nova venda na tabela sales, assim como relações em salesProducts, ao finalizar o pedido
 
 ### `05customer_orders.test`
 
@@ -219,11 +221,11 @@ Todos os testes desse arquivo:
 - Vão coletar os dados de vendas da tabela `sales` referentes ao usuário (id `3`);
 - O endereço da página deve ser `localhost:3000/customer/orders`.
 
-    ✅ 22 - Crie uma tela de pedidos do cliente com elementos a partir dos data-testids disponíveis no protótipo
+        ✅ 22 - Crie uma tela de pedidos do cliente com elementos a partir dos data-testids disponíveis no protótipo
 
-    ✅ 23 - Desenvolva a tela de pedidos do cliente de forma a conter a lista de pedidos do mesmo com os dados corretos
+        ✅ 23 - Desenvolva a tela de pedidos do cliente de forma a conter a lista de pedidos do mesmo com os dados corretos
 
-    ✅ 24 - Desenvolva a tela de pedidos do cliente de forma a dar acesso à tela de detalhes de um pedido ao clicar no card do mesmo
+        ✅ 24 - Desenvolva a tela de pedidos do cliente de forma a dar acesso à tela de detalhes de um pedido ao clicar no card do mesmo
 
 ### `06customer_order_details.test`
 
@@ -234,9 +236,9 @@ Todos os testes desse arquivo:
 - Vão fazer o checkout desse novo pedido, o que deve redirecionar para tela de detalhes daquele pedido;
 - O endereço da página deve ser `localhost:3000/customer/orders/<idVenda>`.
 
-    ✅ 25 - Crie uma tela de detalhes do pedido do cliente com elementos a partir dos data-testids disponíveis no protótipo
+        ✅ 25 - Crie uma tela de detalhes do pedido do cliente com elementos a partir dos data-testids disponíveis no protótipo
 
-    ✅ 26 - Desenvolva a tela de detalhes do pedido do cliente de forma a possuir os dados corretos da venda
+        ✅ 26 - Desenvolva a tela de detalhes do pedido do cliente de forma a possuir os dados corretos da venda
 
 ## `Fluxo da Pessoa Vendedora`
 
@@ -254,11 +256,11 @@ Todos os testes desse arquivo:
 - Vão coletar os dados de vendas da tabela `sales` referentes ao usuário (id `2`);
 - A página padrão esperada para pessoa vendedora é `localhost:3000/seller/orders`.
 
-    ✅ 27 - Crie uma tela de pedidos da pessoa vendedora com elementos a partir dos data-testids disponíveis no protótipo
+        ✅ 27 - Crie uma tela de pedidos da pessoa vendedora com elementos a partir dos data-testids disponíveis no protótipo
 
-    ✅ 28 - Desenvolva a tela de pedidos da pessoa vendedora de forma a conter a lista de pedidos do mesmo com os dados corretos
+        ✅ 28 - Desenvolva a tela de pedidos da pessoa vendedora de forma a conter a lista de pedidos do mesmo com os dados corretos
 
-    ✅ 29 - Desenvolva a tela de pedidos da pessoa vendedora de forma a dar acesso à tela de detalhes de um pedido ao clicar no card do mesmo
+        ✅ 29 - Desenvolva a tela de pedidos da pessoa vendedora de forma a dar acesso à tela de detalhes de um pedido ao clicar no card do mesmo
 
 ### `08seller_order_details.test`
 
@@ -271,11 +273,11 @@ Todos os testes desse arquivo:
 - Vão fazer o login com a vendedora "Fulana Pereira" utilizando o e-mail `fulana@deliveryapp.com` e senha `fulana@123`;
 - Vão clicar no card referente à venda realizada para ter acesso à tela de detalhes do mesmo.
 
-    ❌ 30 - Crie uma tela de detalhes do pedido da pessoa vendedora com elementos a partir dos data-testids disponíveis no protótipo
+        ❌ 30 - Crie uma tela de detalhes do pedido da pessoa vendedora com elementos a partir dos data-testids disponíveis no protótipo
 
-    ❌ 31 - Desenvolva a tela de detalhes do pedido da pessoa vendedora de forma a possuir os dados corretos da venda
+        ❌ 31 - Desenvolva a tela de detalhes do pedido da pessoa vendedora de forma a possuir os dados corretos da venda
 
-    ❌ 32 - Desenvolva a tela de detalhes do pedido da pessoa vendedora de forma a ser capaz de alterar o status do pedido
+        ❌ 32 - Desenvolva a tela de detalhes do pedido da pessoa vendedora de forma a ser capaz de alterar o status do pedido
 
 ### `09customer_seller_status_sync.test`
 
@@ -288,11 +290,11 @@ Todos os testes desse arquivo:
 - Vão fazer o login (no novo contexto) com a vendedora "Fulana Pereira";
 - Vão clicar no card referente à venda realizada para ter acesso à tela de detalhes do mesmo.
 
-    ❌ 33 - Garanta que o status do pedido atualizado na tela de detalhes do pedido da pessoa vendedora seja refletido na tela de detalhes do pedido do cliente após atualização das páginas
+        ❌ 33 - Garanta que o status do pedido atualizado na tela de detalhes do pedido da pessoa vendedora seja refletido na tela de detalhes do pedido do cliente após atualização das páginas
 
-    ❌ 34 - Garanta que o status do pedido atualizado na tela de detalhes do pedido da pessoa vendedora seja refletido na tela de lista de pedidos do cliente após atualização das páginas
+        ❌ 34 - Garanta que o status do pedido atualizado na tela de detalhes do pedido da pessoa vendedora seja refletido na tela de lista de pedidos do cliente após atualização das páginas
 
-    ❌ 35 - Garanta que o status do pedido atualizado na tela de detalhes do pedido do cliente seja refletido na tela de lista de pedidos da pessoa vendedora após atualização das páginas
+        ❌ 35 - Garanta que o status do pedido atualizado na tela de detalhes do pedido do cliente seja refletido na tela de lista de pedidos da pessoa vendedora após atualização das páginas
 
 ## `Fluxo da Pessoa Administradora`
 
@@ -305,20 +307,20 @@ Todos os testes desse arquivo devem:
   - email `adm@deliveryapp.com` e senha `--adm2@21!!--`.
 - Ter a seguinte página esperada pelo avaliador: `localhost:3000/admin/manage`.
 
-    ✅ 36 - Crie uma tela de pessoa administradora com elementos a partir dos data-testids disponíveis no protótipo
+        ✅ 36 - Crie uma tela de pessoa administradora com elementos a partir dos data-testids disponíveis no protótipo
 
-    ✅ 37 - Desenvolva a tela da pessoa administradora de forma a validar o formulário de cadastro
+        ✅ 37 - Desenvolva a tela da pessoa administradora de forma a validar o formulário de cadastro
 
-    ✅ 38 - Desenvolva a tela da pessoa administradora de forma que seja possível cadastrar pessoas usuárias válidas
+        ✅ 38 - Desenvolva a tela da pessoa administradora de forma que seja possível cadastrar pessoas usuárias válidas
 
-    ✅ 39 - Desenvolva a tela da pessoa administradora de forma que ela impossibilite o cadastro de pessoas usuárias já existentes
+        ✅ 39 - Desenvolva a tela da pessoa administradora de forma que ela impossibilite o cadastro de pessoas usuárias já existentes
 
-    ❌ 40 - (`Bônus`) Desenvolva a tela da pessoa administradora de forma que haja uma tabela de pessoas usuárias cadastradas
+        ❌ 40 - (`Bônus`) Desenvolva a tela da pessoa administradora de forma que haja uma tabela de pessoas usuárias cadastradas
 
-    ❌ 41 - (`Bônus`) Desenvolva a tela da pessoa administradora de forma que seja possível deletar pessoas usuárias na tabela
+        ❌ 41 - (`Bônus`) Desenvolva a tela da pessoa administradora de forma que seja possível deletar pessoas usuárias na tabela
 
-    ❌ 42 - Crie testes que cubram no mínimo 30 por cento dos arquivos do front-end e back-end em src com um mínimo de 75 linhas cobertas em cada
+        ❌ 42 - Crie testes que cubram no mínimo 30 por cento dos arquivos do front-end e back-end em src com um mínimo de 75 linhas cobertas em cada
 
-    ❌ 43 - (`Bônus`) Crie testes que cubram no mínimo 60 por cento dos arquivos do front-end e back-end em src com um mínimo de 150 linhas cobertas em cada
+        ❌ 43 - (`Bônus`) Crie testes que cubram no mínimo 60 por cento dos arquivos do front-end e back-end em src com um mínimo de 150 linhas cobertas em cada
 
-    ❌ 44 - (`Bônus`) Crie testes que cubram no mínimo 90 por cento dos arquivos do front-end e back-end em src com um mínimo de 225 linhas cobertas em cada
+        ❌ 44 - (`Bônus`) Crie testes que cubram no mínimo 90 por cento dos arquivos do front-end e back-end em src com um mínimo de 225 linhas cobertas em cada
